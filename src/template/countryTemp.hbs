@@ -1,0 +1,19 @@
+<li class="main_li">
+
+  <h1 class="header">{{name}}</h1>
+  <div class="container">
+    <div class="description">
+      <h2>Capital: <span class="text">{{capital}};</span></h2>
+      <h2>Population: <span class="text">{{population}} peoples;</span></h2>
+      <h2>Languages:</h2>
+      <ul>
+        {{#each languages}}
+        <li class="text">{{this.name}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="image">
+      <img class="flag" src="{{flag}}" alt="">
+    </div>
+  </div>
+</li>
