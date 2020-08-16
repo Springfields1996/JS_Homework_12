@@ -3,7 +3,7 @@ import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 import { defaults } from '@pnotify/core';
 
-defaults.delay = 1500;
+defaults.delay = 1800;
 
 function notification() {
   notice({
