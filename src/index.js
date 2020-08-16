@@ -1,5 +1,5 @@
 import './styles.css';
-import { notification, errorMessage } from './notify.js';
+import { notification, errorMessage } from './notification.js';
 import countryTemplate from './template/countryTemp.hbs';
 import fetchCountries from './fetchCountries.js';
 
